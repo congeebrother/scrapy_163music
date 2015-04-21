@@ -2,7 +2,7 @@
 import scrapy
 
 
-class Music163SpiderSpider(scrapy.Spider):
+class Music163Spider(scrapy.Spider):
     name = "music163_spider"
     allowed_domains = ["music.163.com"]
     start_urls = (
